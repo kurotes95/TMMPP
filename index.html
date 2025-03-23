@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesfaye Mamo Multimedia Productions</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #000;
+      color: #fff;
+    }
+    .logo-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background-color: #000;
+    }
+    .logo-header img {
+      max-height: 100px;
+      width: auto;
+      border-radius: 0;
+      border: none;
+    }
+    .logo-text {
+      margin-left: 20px;
+      font-size: 1.5rem;
+      color: #03a9f4;
+      font-weight: bold;
+      font-family: "Arial Black", Impact, sans-serif;
+      text-shadow: 0 0 3px rgba(255,255,255,0.5);
+    }
+    .hero {
+      position: relative;
+      height: 100vh;
+      background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+    .hero a.button {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #e91e63;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+    .hero a.button:hover {
+      background: #c2185b;
+    }
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      .hero p {
+        font-size: 1.2rem;
+      }
+    }
+    section {
+      padding: 50px 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #333;
+    }
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+      color: #e91e63;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .linkedin-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #0e76a8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .linkedin-link:hover {
+      text-decoration: underline;
+    }
+    .linkedin-icon {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    .email {
+      display: block;
+      margin-top: 5px;
+      font-weight: bold;
+    }
+    .email a {
+      color: #e91e63;
+      text-decoration: none;
+    }
+    .email a:hover {
+      text-decoration: underline;
+    }
+    #our-team {
+      background: #fff;
+      color: #333;
+    }
+    .team-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .team-member {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+    .member-image, .member-text {
+      padding: 20px;
+    }
+    .member-image {
+      flex: 1;
+      min-width: 250px;
+      text-align: center;
+    }
+    .member-image img {
+      max-width: 100%;
+      border-radius: 50%;
+    }
+    .member-text {
+      flex: 2;
+      min-width: 300px;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    #contact {
+      background: #222;
+      color: #fff;
+      text-align: center;
+    }
+    #contact a {
+      color: #e91e63;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-header">
+    <img src="logo.jpg" alt="Company Logo Placeholder">
+    <h2 class="logo-text">Tesfaye Mamo Multimedia Productions</h2>
+  </div>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Tesfaye Mamo Multimedia Productions</h1>
+      <p>Crafting Stories. Shaping Culture. Inspiring Generations.</p>
+      <a href="portfolio.html" class="button">View Our Portfolio</a>
+      <a href="#our-team" class="button">Meet Our Team</a>
+    </div>
+  </section>
+  <section id="our-team">
+    <div class="container">
+      <h2>Our Team</h2>
+      <div class="team-member">
+        <div class="member-image">
+          <img src="Tesfaye_Mamo.jpg" alt="Tesfaye Mamo">
+        </div>
+        <div class="member-text">
+          <h3>Tesfaye Mamo - Founder & Visionary</h3>
+          <p>
+            Tesfaye Mamo is the founder and visionary behind Tesfaye Mamo Multimedia Productions. As a celebrated Ethiopian author, filmmaker, and media personality, Tesfaye has dedicated his career to shaping the Ethiopian arts and media landscape for over three decades. His leadership and creativity continue to define the company's legacy.
+          </p>
+          <p>
+            His notable works include landmark video films such as <strong>ፍቅር መጨረሻ</strong> ("The End of Love") released in 1987 and <strong>እተፈንታ</strong> ("Fate") from 1997, as well as the acclaimed 28-episode TV drama series <strong>ምልስት</strong> ("Mleset") on Fana Television. He also hosted the long-running radio show <strong>ኪነት መንገድ</strong> ("The Way of Art") on Sheger FM 102.1.
+          </p>
+          <p>
+            Tesfaye’s commitment to cultural preservation, mentorship, and creative excellence continues to guide the company’s mission today.
+          </p>
+          <a href="https://www.linkedin.com/in/tesfaye-mamo-0a625b358" class="linkedin-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon">LinkedIn</a>
+          <span class="email">Email: <a href="mailto:mamotesfaye433@gmail.com">mamotesfaye433@gmail.com</a></span>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="member-image">
+          <img src="Yewbdar_Anbessie.jpg" alt="Yewbdar Anbessie">
+        </div>
+        <div class="member-text">
+          <h3>Yewbdar Anbessie - Creative Director & Co-Leader</h3>
+          <p>
+            Yewbdar Anbessie serves as an essential leader at Tesfaye Mamo Multimedia Productions. An acclaimed actress and director, Yewbdar’s dynamic approach behind the scenes has been instrumental in the company's continued growth and creative output.
+          </p>
+          <p>
+            Her creative vision and hands-on leadership have made lasting contributions to the company’s productions and mentorship of emerging talents. As second in command, she plays a key role in shaping both the artistic direction and operational strength of the organization.
+          </p>
+          <p>
+            Learn more about Yewbdar’s journey on the <a href="https://africanwomenincinema.blogspot.com/2011/03/focus-on-yewbdar-anbessie.html" target="_blank">African Women in Cinema</a> blog.
+          </p>
+          <a href="https://www.linkedin.com/in/yewbdar-anbessie-371058358/" class="linkedin-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon">LinkedIn</a>
+          <span class="email">Email: <a href="mailto:yewbanbessie@gmail.com">yewbanbessie@gmail.com</a></span>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="member-image">
+          <img src="Naol_Mamo.jpg" alt="Naol Mamo">
+        </div>
+        <div class="member-text">
+          <h3>Naol Mamo - Media Operations Lead & Digital Strategist</h3>
+          <p>
+            Naol Mamo ensures the company’s digital platforms and internal systems run smoothly, managing digital projects and organizing key resources for training and research.
+          </p>
+          <p>
+            Naol holds an Associate of Applied Science degree in Cybersecurity, Virtualization, and Forensics. His expertise strengthens the company’s operational framework, ensuring Tesfaye Mamo Multimedia Productions continues to evolve and succeed in the modern media landscape.
+          </p>
+          <a href="https://linkedin.com/in/naol-mamo-tesfaye" class="linkedin-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon">LinkedIn</a>
+          <span class="email">Email: <a href="mailto:naolmam0@gmail.com">naolmam0@gmail.com</a></span>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="member-image">
+          <img src="Dagmawi_Tesfaye_Mamo.jpg" alt="Dagmawi Tesfaye Mamo">
+        </div>
+        <div class="member-text">
+          <h3>Dagmawi Tesfaye Mamo - Business Manager</h3>
+          <p>
+            Dagmawi Tesfaye Mamo oversees project management, coordination, and business development at Tesfaye Mamo Multimedia Productions. With a degree in International Trade and Business, he brings strong expertise and a structured approach to advancing the company’s mission.
+          </p>
+          <p>
+            Over the years, he has contributed to numerous projects and films, including TV dramas such as ምልስት ("Mleset"), as well as advertising campaigns for Addis International Bank and Addis Africa International Convention Center. His strengths lie in efficient management, communication, and team building. Dagmawi’s passion for economics, finance, and trade fuels his drive to ensure the company's ongoing success.
+          </p>
+          <a href="https://www.linkedin.com/in/dagmawi-tesfaye-21776a219/" class="linkedin-link" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon">LinkedIn</a>
+          <span class="email">Email: <a href="mailto:Dagmtes31@gmail.com">Dagmtes31@gmail.com</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div style="margin-top: 30px; text-align:center;">
+    <h3>Connect with Tesfaye Mamo on Social Media:</h3>
+    <p style="margin: 10px 0;">
+      <strong>Facebook:</strong>
+      <a href="https://www.facebook.com/tesfaye.mamo1" target="_blank" style="color: #e91e63; text-decoration: none; font-weight: bold;">facebook.com/tesfaye.mamo1</a>
+    </p>
+    <p style="margin: 10px 0;">
+      <strong>Telegram Community:</strong>
+      <a href="https://t.me/TesfayeMamo" target="_blank" style="color: #e91e63; text-decoration: none; font-weight: bold;">t.me/TesfayeMamo</a>
+    </p>
+    <p style="margin: 10px 0;"><strong>TikTok:</strong> @tesfayemamo35</p>
+  </div>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>For inquiries or collaborations, feel free to reach out via email:</p>
+      <p><a href="mailto:mamotesfaye433@gmail.com">mamotesfaye433@gmail.com</a></p>
+    </div>
+  </section>
+</body>
+</html>

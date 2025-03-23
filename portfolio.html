@@ -18,28 +18,36 @@
       font-family: Arial, sans-serif;
       text-align: center;
     }
-    .logo-placeholder {
+    .logo {
       width: 200px;
       height: 200px;
-      background-color: #fff;
-      color: #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       margin-bottom: 30px;
-      font-weight: bold;
       border-radius: 10px;
+      object-fit: contain;
     }
     h1 {
       font-size: 3rem;
       letter-spacing: 2px;
     }
+    .button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #ccc;
+    }
   </style>
 </head>
 <body>
-  <div class="logo.jpg">
-    logo.jpg
-  </div>
+  <img src="logo.jpg" alt="Logo" class="logo">
   <h1>COMING SOON</h1>
+  <a href="portfolio.html" class="button">View Portfolio</a>
 </body>
 </html>
